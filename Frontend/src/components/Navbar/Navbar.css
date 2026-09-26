@@ -1,0 +1,215 @@
+.navbar{
+
+    position:sticky;
+
+    top:0;
+
+    z-index:1000;
+
+    background:rgba(255,255,255,.92);
+
+    backdrop-filter:blur(12px);
+
+    border-bottom:1px solid var(--border);
+
+}
+
+.navbar-container{
+
+    width:min(92%,1200px);
+
+    margin:auto;
+
+    height:72px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+.logo{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+}
+
+.logo-icon{
+
+    font-size:22px;
+
+    color:var(--text);
+
+}
+
+.logo-text{
+
+    font-size:22px;
+
+    font-weight:700;
+
+    letter-spacing:-0.5px;
+
+    color:var(--text);
+
+    transition:var(--transition);
+
+}
+
+.logo-text:hover{
+
+    opacity:.8;
+
+}
+
+.nav-links{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:32px;
+
+}
+
+.nav-links a{
+
+    font-size:15px;
+
+    font-weight:500;
+
+    color:var(--text-secondary);
+
+    transition:var(--transition);
+
+    position:relative;
+
+}
+
+.nav-links a:hover{
+
+    color:var(--text);
+
+}
+
+.nav-links a::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    bottom:-8px;
+
+    width:0;
+
+    height:2px;
+
+    background:var(--text);
+
+    transition:.25s;
+
+}
+
+.nav-links a:hover::after,
+
+.active-link::after{
+
+    width:100%;
+
+}
+
+.active-link{
+
+    color:var(--text)!important;
+
+    font-weight:600;
+
+}
+
+.logout-nav{
+
+    background:none;
+
+    border:none;
+
+    color:var(--text-secondary);
+
+    font-size:15px;
+
+    font-weight:500;
+
+    transition:.25s;
+
+}
+
+.logout-nav:hover{
+
+    color:#DC2626;
+
+}
+
+@media(max-width:768px){
+
+    .navbar-container{
+
+        flex-direction:column;
+
+        height:auto;
+
+        padding:18px 0;
+
+        gap:18px;
+
+    }
+
+    .nav-links{
+
+        gap:18px;
+
+        flex-wrap:wrap;
+
+        justify-content:center;
+
+    }
+
+}
+
+.theme-btn{
+
+    width:40px;
+
+    height:40px;
+
+    border-radius:50%;
+
+    border:1px solid var(--border);
+
+    background:var(--surface);
+
+    color:var(--text);
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    cursor:pointer;
+
+    transition:.25s;
+
+}
+
+.theme-btn:hover{
+
+    transform:rotate(15deg);
+
+}

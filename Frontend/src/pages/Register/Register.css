@@ -1,0 +1,135 @@
+/* .register-page{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:var(--background-color);
+
+    padding:40px 20px;
+
+}
+
+.register-card{
+
+    width:100%;
+
+    max-width:470px;
+
+    background:var(--card-color);
+
+    padding:40px;
+
+    border-radius:18px;
+
+    box-shadow:var(--shadow);
+
+    border:1px solid var(--border-color);
+
+    transition:var(--transition);
+
+}
+
+.register-card:hover{
+
+    transform:translateY(-4px);
+
+}
+
+.register-card h1{
+
+    text-align:center;
+
+    margin-bottom:8px;
+
+    font-size:30px;
+
+}
+
+.register-card p{
+
+    text-align:center;
+
+    margin-bottom:30px;
+
+}
+
+.register-form{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+
+}
+
+.register-form label{
+
+    font-size:14px;
+
+    font-weight:500;
+
+    color:var(--secondary-text);
+
+}
+
+.register-form input{
+
+    margin-top:6px;
+
+}
+
+.register-form button{
+
+    margin-top:10px;
+
+    width:100%;
+
+}
+
+.error-message{
+
+    color:#EF4444;
+
+    text-align:center;
+
+}
+
+.success-message{
+
+    color:#22C55E;
+
+    text-align:center;
+
+}
+
+.register-footer{
+
+    margin-top:25px;
+
+    text-align:center;
+
+    color:var(--secondary-text);
+
+}
+
+.register-footer a{
+
+    color:var(--primary-color);
+
+    font-weight:600;
+
+}
+
+.register-footer a:hover{
+
+    text-decoration:underline;
+
+} */
+
+@import "../Login/Login.css";

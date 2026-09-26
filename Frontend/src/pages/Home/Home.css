@@ -1,0 +1,227 @@
+.hero{
+
+    display:grid;
+
+    grid-template-columns:1.1fr .9fr;
+
+    align-items:center;
+
+    gap:70px;
+
+    min-height:calc(100vh - 72px);
+
+    padding:40px 0 80px;
+
+}
+
+.hero-left h1{
+
+    font-size:58px;
+
+    line-height:1.05;
+
+    letter-spacing:-2px;
+
+    max-width:650px;
+
+    margin-bottom:18px;
+
+    color: var(--text);
+
+}
+
+.hero-left span{
+
+    display:block;
+
+}
+
+.welcome-user{
+
+    font-size:16px;
+
+    font-weight:500;
+
+    color:var(--text-secondary);
+
+    margin-bottom:28px;
+
+}
+
+.hero-left>p{
+
+    max-width:620px;
+
+    font-size:17px;
+
+    line-height:1.9;
+
+    margin-bottom:36px;
+
+}
+
+.hero-right{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.robot-box{
+
+    width:320px;
+
+    height:320px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    border-radius:28px;
+
+    background:var(--surface);
+
+    border:1px solid var(--border);
+
+    box-shadow:var(--shadow);
+
+    transition:.3s;
+
+}
+
+.robot-box:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.robot-box svg{
+
+    font-size:150px;
+
+    color:var(--text);
+
+}
+
+.section{
+
+    padding:90px 0;
+
+}
+
+.section-title{
+
+    text-align:center;
+
+    margin-bottom:14px;
+
+}
+
+.section-subtitle{
+
+    max-width:700px;
+
+    margin:0 auto 60px;
+
+    text-align:center;
+
+    line-height:1.8;
+
+}
+
+.features{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:28px;
+
+}
+
+.feature-card{
+
+    background:var(--surface);
+
+    border:1px solid var(--border);
+
+    border-radius:18px;
+
+    padding:35px;
+
+    transition:.25s;
+
+    box-shadow:var(--shadow);
+
+}
+
+.feature-card:hover{
+
+    transform:translateY(-6px);
+
+}
+
+.feature-icon{
+
+    font-size:34px;
+
+    margin-bottom:20px;
+
+}
+
+.feature-card h3{
+
+    margin-bottom:14px;
+
+}
+
+.feature-card p{
+
+    line-height:1.8;
+
+}
+
+@media(max-width:992px){
+
+    .hero{
+
+        grid-template-columns:1fr;
+
+        text-align:center;
+
+        gap:50px;
+
+        padding:60px 0;
+
+    }
+
+    .hero-left h1{
+
+        font-size:46px;
+
+        margin:auto;
+
+        margin-bottom:20px;
+
+    }
+
+    .hero-left>p{
+
+        margin:auto;
+
+        margin-bottom:30px;
+
+    }
+
+    .features{
+
+        grid-template-columns:1fr;
+
+    }
+
+}

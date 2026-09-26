@@ -1,0 +1,181 @@
+.projects-container{
+
+    width:min(92%,1200px);
+
+    margin:auto;
+
+    padding:60px 0 80px;
+
+}
+
+.projects-container h1{
+
+    font-size:42px;
+
+    margin-bottom:12px;
+
+    letter-spacing:-1px;
+
+}
+
+.page-subtitle{
+
+    margin-bottom:45px;
+
+    max-width:650px;
+
+    color:var(--text-secondary);
+
+    line-height:1.8;
+
+}
+
+/* ================= Recommendation ================= */
+
+.recommended-card{
+
+    background:#FFFFFF;
+
+    border:1px solid var(--border);
+
+    border-left:4px solid #111;
+
+    border-radius:18px;
+
+    padding:32px;
+
+    margin-bottom:40px;
+
+    box-shadow:var(--shadow);
+
+}
+
+.recommended-card h2{
+
+    font-size:18px;
+
+    margin-bottom:12px;
+
+}
+
+.recommended-card h3{
+
+    margin-bottom:12px;
+
+}
+
+.recommended-card p{
+
+    line-height:1.8;
+
+}
+
+/* ================= Grid ================= */
+
+.project-list{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(340px,1fr));
+
+    gap:28px;
+
+}
+
+/* ================= Card ================= */
+
+.project-card{
+
+    background:#FFFFFF;
+
+    border:1px solid var(--border);
+
+    border-radius:18px;
+
+    padding:30px;
+
+    box-shadow:var(--shadow);
+
+    transition:.25s;
+
+}
+
+.project-card:hover{
+
+    transform:translateY(-6px);
+
+}
+
+.project-card h3{
+
+    margin-bottom:16px;
+
+}
+
+.project-card>p{
+
+    line-height:1.8;
+
+    margin-bottom:24px;
+
+}
+
+/* ================= Info ================= */
+
+.project-info{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    margin-bottom:24px;
+
+    padding:18px 0;
+
+    border-top:1px solid #F1F5F9;
+
+    border-bottom:1px solid #F1F5F9;
+
+}
+
+.project-info span{
+
+    font-size:14px;
+
+    color:var(--text-secondary);
+
+    font-weight:500;
+
+}
+
+.project-card button{
+
+    width:100%;
+
+}
+
+/* ================= Empty ================= */
+
+.projects-container h2{
+
+    margin-bottom:15px;
+
+}
+
+@media(max-width:768px){
+
+    .projects-container h1{
+
+        font-size:34px;
+
+    }
+
+    .project-info{
+
+        flex-direction:column;
+
+        gap:10px;
+
+    }
+
+}

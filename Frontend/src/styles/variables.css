@@ -1,0 +1,61 @@
+:root{
+
+    /* Colors */
+
+    --background:#FAFAFA;
+
+    --surface:#FFFFFF;
+
+    --text:#111111;
+
+    --text-secondary:#6B7280;
+
+    --border:#E5E7EB;
+
+    --primary:#111111;
+
+    --primary-hover:#2B2B2B;
+
+    --success:#16A34A;
+
+    --danger:#DC2626;
+
+    /* Radius */
+
+    --radius:16px;
+
+    --radius-sm:12px;
+
+    /* Shadow */
+
+    --shadow:0 10px 30px rgba(0,0,0,.06);
+
+    /* Transition */
+
+    --transition:.25s ease;
+
+    /* Layout */
+
+    --container:1200px;
+
+}
+
+body.dark-theme{
+
+    --background:#0F172A;
+
+    --surface:#1E293B;
+
+    --text:#F8FAFC;
+
+    --text-secondary:#CBD5E1;
+
+    --border:#334155;
+
+    --primary:#F8FAFC;
+
+    --primary-hover:#E2E8F0;
+
+    --shadow:0 10px 30px rgba(0,0,0,.35);
+
+}

@@ -1,0 +1,221 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:'Inter',sans-serif;
+
+    background:var(--background);
+
+    color:var(--text);
+
+    line-height:1.7;
+
+    font-size:15px;
+
+}
+
+.container{
+
+    width:min(92%,var(--container));
+
+    margin:auto;
+
+}
+
+img{
+
+    max-width:100%;
+
+    display:block;
+
+}
+
+a{
+
+    text-decoration:none;
+
+    color:inherit;
+
+}
+
+ul{
+
+    list-style:none;
+
+}
+
+button{
+
+    cursor:pointer;
+
+    font-family:inherit;
+
+}
+
+input,
+textarea,
+select{
+
+    font-family:inherit;
+
+}
+
+/* Typography */
+
+h1{
+
+    font-size:48px;
+
+    line-height:1.1;
+
+    font-weight:800;
+
+    letter-spacing:-1px;
+
+}
+
+h2{
+
+    font-size:30px;
+
+    font-weight:700;
+
+}
+
+h3{
+
+    font-size:20px;
+
+    font-weight:600;
+
+}
+
+p{
+
+    color:var(--text-secondary);
+
+}
+
+/* Buttons */
+
+.primary-btn{
+
+    background:var(--primary);
+
+    color:var(--background);
+
+    border:none;
+
+    padding:14px 28px;
+
+    border-radius:12px;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    transition:var(--transition);
+
+}
+
+.primary-btn:hover{
+
+    background:var(--primary-hover);
+
+    transform:translateY(-2px);
+
+}
+
+.secondary-btn{
+
+    background:var(--surface);
+
+    color:var(--text);
+
+    border:1px solid var(--border);
+
+    padding:14px 28px;
+
+    border-radius:12px;
+
+    transition:var(--transition);
+
+}
+
+.secondary-btn:hover{
+
+    background:var(--border);
+
+}
+
+/* Inputs */
+
+input,
+textarea,
+select{
+
+    width:100%;
+
+    padding:15px;
+
+    border:1px solid var(--border);
+
+    border-radius:12px;
+
+    background:var(--surface);
+
+    color: var(--text);
+
+    font-size:15px;
+
+    transition:var(--transition);
+
+}
+
+input:focus,
+textarea:focus,
+select:focus{
+
+    outline:none;
+
+    border-color:var(--text);
+
+}
+
+/* Card */
+
+.card{
+
+    background:var(--surface);
+
+    border:1px solid var(--border);
+
+    border-radius:16px;
+
+    box-shadow:var(--shadow);
+
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar{
+
+    width:8px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#CFCFCF;
+
+    border-radius:20px;
+
+}
